@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/GIThubuserms/Microservices_DPL.git'
+                git branch: 'main', url: 'https://github.com/GIThubuserms/Microservices_DPL.git'
             }
         }
         stage("Docker Image Build") {
